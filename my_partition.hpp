@@ -14,5 +14,6 @@ outputIterator my_partition(outputIterator first, outputIterator last, predicate
             ++it;
         }
     }
+    return first;
 
 }
